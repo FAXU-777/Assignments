@@ -32,6 +32,7 @@ class Program
            გამოაკელით უმცირესი
            ii. თუ უმცირესი რიცხვი იქნება 0 პროგრამამ უნდა გამოიტანოს
            შეცდომა 0 გაყოფა არ შეიძლება .*/
+        Console.WriteLine("Now lets test calculator.");
         Console.WriteLine("Enter number one: ");
         int numberOne = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter number two: ");
@@ -88,7 +89,23 @@ class Program
         }
 
         #endregion
-        
+
+        #region Place swapping
+
+        Console.WriteLine("Now we are going to swap places between two numbers.");
+        Console.Write("Enter number one: ");
+        var num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter number two: ");
+        var num2 = Convert.ToInt32(Console.ReadLine());
+
+        int temps = num1;
+        num1 = num2;
+        num2 = temps;
+
+        Console.WriteLine($"Number one is now: {num1}");
+        Console.WriteLine($"Number two is now: {num2}");
+
+        #endregion
         
     }
 }

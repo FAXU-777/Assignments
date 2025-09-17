@@ -7,7 +7,6 @@
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.AssemblyInfoInputs.cache
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.AssemblyInfo.cs
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.csproj.CoreCompileInputs.cache
-/Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.sourcelink.json
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.dll
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/refint/newHomeWork.dll
 /Users/appleuser/Course/newHomeWork/newHomeWork/obj/Debug/net9.0/newHomeWork.pdb
