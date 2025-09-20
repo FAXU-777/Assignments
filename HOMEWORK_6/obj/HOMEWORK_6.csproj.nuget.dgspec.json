@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/appleuser/RiderProjects/Assignments/newHomeWork/newHomeWork.csproj": {}
+    "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/HOMEWORK_6.csproj": {}
   },
   "projects": {
-    "/Users/appleuser/RiderProjects/Assignments/newHomeWork/newHomeWork.csproj": {
+    "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/HOMEWORK_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/appleuser/RiderProjects/Assignments/newHomeWork/newHomeWork.csproj",
-        "projectName": "newHomeWork",
-        "projectPath": "/Users/appleuser/RiderProjects/Assignments/newHomeWork/newHomeWork.csproj",
+        "projectUniqueName": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/HOMEWORK_6.csproj",
+        "projectName": "HOMEWORK_6",
+        "projectPath": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/HOMEWORK_6.csproj",
         "packagesPath": "/Users/appleuser/.nuget/packages/",
-        "outputPath": "/Users/appleuser/RiderProjects/Assignments/newHomeWork/obj/",
+        "outputPath": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/appleuser/.nuget/NuGet/NuGet.Config"

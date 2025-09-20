@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IQpaL/Y8vXE=",
+  "dgSpecHash": "YaVxy4y3vnU=",
   "success": true,
-  "projectFilePath": "/Users/appleuser/RiderProjects/Assignments/newHomeWork/newHomeWork.csproj",
+  "projectFilePath": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_6/HOMEWORK_6.csproj",
   "expectedPackageFiles": [
     "/Users/appleuser/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.4/microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
     "/Users/appleuser/.nuget/packages/microsoft.net.illink.tasks/9.0.4/microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
