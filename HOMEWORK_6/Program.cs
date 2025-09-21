@@ -85,45 +85,119 @@ class Program
         
         #endregion
 
-        #region Number 2
+        Console.WriteLine();
+
+        #region Number2
 
         // შექმენით კონტაქტების აპლიკაცია რომელსაც ექნება კონტაქტის დამატების,
         //     წაშლის და განახლების ფუნქციონალი ( გამოიყენეთ Dictionary)
 
-        Dictionary<string, string> contacts = new Dictionary<string, string>();
+    //     Dictionary<string, string> contacts = new Dictionary<string, string>();
+    //
+    //     while (true)
+    //     {
+    //         Console.WriteLine("--Contact List--");
+    //         Console.WriteLine("1. Add contact");
+    //         Console.WriteLine("2. Delete contact");
+    //         Console.WriteLine("3. Update contact");
+    //         Console.WriteLine("4. show contact");
+    //         Console.WriteLine("5. Exit from contact");
+    //         Console.WriteLine();
+    //         
+    //         Console.Write("Enter number: ");
+    //         int choice = Convert.ToInt32(Console.ReadLine());
+    //
+    //         switch (choice)
+    //         {
+    //             case 1: AddContatcs(contacts);
+    //                 break;
+    //             case 2 : DeleteContact(contacts);
+    //                 break;
+    //            case 3: UpdateContacts(contacts);
+    //                break;
+    //             case 4: ShowContacts(contacts);
+    //                 break;
+    //             
+    //          
+    //             case 5: return;
+    //         }
+    //
+    //         Console.WriteLine();
+    //     }
+    //     #endregion
+    //
+    //     #region LINQ
+    //
+    //     Console.WriteLine("yes");
+       #endregion
 
-        while (true)
-        {
-            Console.WriteLine("--Contact List--");
-            Console.WriteLine("1. Add contact");
-            Console.WriteLine("2. Delete contact");
-            Console.WriteLine("3. Update contact");
-            Console.WriteLine("4. show contact");
-            Console.WriteLine("5. Exit from contact");
-            Console.WriteLine();
+       
+       #region Number_3
+
+       //     3. დაწერეთ პროგრამა რომელიც მასივში დათვლის თითოეული ელემენტის
+       //     რაოდენობას .
+       //         და გამოიტანს მათ ჯამს
+       //     a. Input
+       //     5
+       //     1 1 2 3 3
+       //     b. Output
+       //     1 appears 2 times sum 2
+       //     2 appears 1 times sum 2
+       //     3 appears 2 times sum 6
+
+       Console.Write("enter amount of arr: ");
+       int size = Convert.ToInt32(Console.ReadLine());
+
+       int[] arr2 = new int[size];
+    
+       for (int i = 0; i < size; i++)
+       {
+           Console.Write("Enter numbers: ");
+           int num = Convert.ToInt32(Console.ReadLine());
+           arr2[i] = num;
+       }
+
+       Dictionary<int, int> counts = new Dictionary<int, int>();
+
+       foreach (var num in arr2)
+       {
+           if (counts.ContainsKey(num))
+           {
+               counts[num]=counts[num] + 1;
+           }
+           else
+           {
+               counts[num] = 1;
+           }
+        
+       }
+       foreach (var kvp in counts.OrderBy(x => x.Key))
+       {
+           int number = kvp.Key;
+           int count = kvp.Value;
+           int sum = number * count;
             
-            Console.Write("Enter number: ");
-            int choice = Convert.ToInt32(Console.ReadLine());
-
-            switch (choice)
-            {
-                case 1: AddContatcs(contacts);
-                    break;
-                case 2 : DeleteContact(contacts);
-                    break;
-               case 3: UpdateContacts(contacts);
-                   break;
-                case 4: ShowContacts(contacts);
-                    break;
-                
-             
-                case 5: return;
-            }
-
-            Console.WriteLine();
-        }
-        #endregion
+           Console.WriteLine($"{number} appears {count} times sum {sum}");
+       }
+       
+       #endregion
+       
+       
+       
+       
+   
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 public static void AddContatcs(Dictionary<string, string> contacts)
@@ -160,6 +234,15 @@ public static void AddContatcs(Dictionary<string, string> contacts)
         }
             
         }
+    
+    
+    
+    
+    
+    
+    
+    
+    
          public static void ShowContacts(Dictionary<string, string> contatcs)
     {
 
