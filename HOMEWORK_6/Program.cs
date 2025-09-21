@@ -181,11 +181,53 @@ class Program
        }
        
        #endregion
+
+       #region Number_4
+
+       // 4. დაწერეთ პროგრამა რომელიც გვიჩვენებს ტოპ n მონაწილის შედეგს . მაგ (1 2 3 4
+       // 5 6 7 8 9 10)
+       // a. Input:
+       // 2
+       // Output
+       // 9 10
+
+       Console.Write("Enter size of array: ");
+       int size2 = Convert.ToInt32(Console.ReadLine());
+       int[] scores = new int[size2];
+       int max = scores[0];
+       int secondMax = scores[0];
+        
+       for (int i = 0; i < size2; i++)
+       {
+           Console.Write("Enter number: ");
+           scores[i] = Convert.ToInt32(Console.ReadLine());
+       }
+        
+
+       for (int i = 0; i < size2; i++)
+       {
+           if (scores[i] > max)
+           {
+               max = scores[i];
+           }
+       }
+
+       for (int i = 0; i < size2; i++)
+       {
+           if (scores[i] > secondMax && scores[i] < max)
+           {
+               secondMax = scores[i];
+           }
+       }
+
+
+       Console.WriteLine($"Max is {max} and second max is {secondMax}");
+
+       
+
+       #endregion
        
        
-       
-       
-   
     }
     
     
