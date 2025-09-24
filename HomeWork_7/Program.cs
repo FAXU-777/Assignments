@@ -61,9 +61,62 @@ class Program
 
         int finalScore = (int)Score.Win * win +(int) Score.Draw * draw + (int)Score.Loss * loss;
         Console.WriteLine($"Final score is {finalScore}");
+        Console.WriteLine();
+        
+        // 4. დაწერეთ პროგრამა რომელიც დათვლის თანამშრომლის შემოსავალს 1
+        // კვირის განმავლობაში .
+        //     გაითვალისწინეთ
+        // a. დღეში თანამშრომელი მუშაობს 8 საათს და საათში იღებს 10 $
+        // b. ოვერთაიმის შემთხვევაში საათში იღებს დამატებით 5$
+        // c. შაბათ/კვირას მუშაობის შემთხვევაში იღებს გაორმაგებულ ხელფასს
+        //
+        // Input : 8, 8, 8, 8, 8, 0, 0
+        // Output : 400
+        // Input : 8, 8, 8, 8, 8, 8, 0
+        // Output : 560
+        // Input : 4,4,4,4,4,0,4
+        // Output : 280
+        // Input : 5,8,8,8,8,8,8
+        // Output : 690
 
+     
+
+        int[] arr = new int[7];
+        int salary = 0;
+        
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.Write("Enter hours of each day of week: ");
+            int hours = Convert.ToInt32(Console.ReadLine());
+            arr[i] = hours;
+        }
+        for (int i = 0; i < arr.Length-2; i++)
+        {
+            if (arr[i] >= 0 && arr[i] <= 8)
+            {
+                salary += arr[i] * (int)Money.Ord;
+            }
+            else
+            {
+                int diff = arr[i] - 8;
+                salary += 80 + diff * (int)Money.OverTime;
+            }
+        }
+
+        salary += arr[5] *(int)Money.Ord * (int)Money.Weekends;
+        salary += arr[6] * (int)Money.Ord * (int)Money.Weekends;
+        
+        Console.WriteLine($"Salary is: {salary}");
+        
+        
+        
     }
-
+    enum Money
+    {
+        Ord = 10,
+        OverTime = 5,
+        Weekends = 2
+    }
     enum Score
     {
         Win = 3,
