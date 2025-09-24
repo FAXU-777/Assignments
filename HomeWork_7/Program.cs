@@ -138,6 +138,33 @@ class Program
             }
         }
         Console.WriteLine(max);
+        Console.WriteLine();
+        
+        // 6. დაწერეთ პროგრამა რომელიც ამობეჭდავს N სიგრძის მქონდე ელემენტს
+        //     მასივიდან
+        //
+        // Input : N = 7
+        //
+        //     „Hello”, “World” , “Programming”, “communication”
+        // Output : Programming, “communication”
+        // Input : N = 15
+        //     „Hello”, “World” , “Programming”, “communication”
+        // Output : No elements found
+
+        string[] arr = { "Hello", "World", "Programming", "communication" };
+
+        Console.Write("Enter length of string you want: ");
+        int lenght = Convert.ToInt32(Console.ReadLine());
+        
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (lenght <= arr[i].Length)
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
+
         
         
         
