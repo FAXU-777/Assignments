@@ -151,7 +151,7 @@ class Program
         //     „Hello”, “World” , “Programming”, “communication”
         // Output : No elements found
 
-        string[] arr = { "Hello", "World", "Programming", "communication" };
+        string[] arr2 = { "Hello", "World", "Programming", "communication" };
 
         Console.Write("Enter length of string you want: ");
         int lenght = Convert.ToInt32(Console.ReadLine());
@@ -159,7 +159,7 @@ class Program
 
         for (int i = 0; i < arr.Length; i++)
         {
-            if (lenght <= arr[i].Length)
+            if (lenght <= arr2[i].Length)
             {
                 Console.WriteLine(arr[i]);
             }
