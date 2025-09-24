@@ -107,6 +107,37 @@ class Program
         salary += arr[6] * (int)Money.Ord * (int)Money.Weekends;
         
         Console.WriteLine($"Salary is: {salary}");
+        Console.WriteLine();
+        
+        // 5. გიორგი მარათონისთვის ემზადება ის ყოველ დღიურად ვარჯიშობს
+        //     .შეამოწმეთ აქვს თუ არა გიორგის პროგრესი ყოველ დღიურად და გამოიტანეთ იმ
+        //     დღეების რაოდენობა როდესაც მან შედეგი გააუმჯობესა.
+        //
+        //     Input : 5, 8, 8, 9,10
+        // Output : 3
+        // Input : 5,5,5,5
+        // Output: 0
+
+        List<int> nums = new List<int>();
+        Console.Write("Enter amount of nums: ");
+        int amount = Convert.ToInt32(Console.ReadLine());
+        int max = 0;
+
+        for (int i = 0; i < amount; i++)
+        {
+            Console.Write("Enter numbers: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            nums.Add(num);
+        }
+
+        for (int i = 0; i < nums.Count-1; i++)
+        {
+            if (nums[i+1] > nums[i])
+            {
+                max++;
+            }
+        }
+        Console.WriteLine(max);
         
         
         
