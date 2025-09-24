@@ -16,6 +16,28 @@ class Program
         var bigSquare = (2* radius)  * (2* radius) ;
         var smallSquare = bigSquare/2;
         Console.WriteLine($"Area of big square is : {bigSquare} and small square: {smallSquare}");
+        
+        
+        //     2. დაწერეთ პროგრამა რომელიც შეამოწმებს ამოუვიდა თუ არა იუზერს
+        //         ჯეკპოტი
+        //
+        //     Input : [ “@”,“@”,“@”,“@”,“@”,“@”]
+        //     Input : [ “X”,“X”,“X”]
+        //     Output : Yes
+        //     Input : [ “S”,“S”,“S”]
+        //     Output : Yes
+        //     Input : [ “@”,“a”,“@”,“@”,“@”,“@”]
+        //     Output : No
+
+        Console.WriteLine("Welcome Casino");
+        Console.Write("Enter your option: "); 
+        string option = Console.ReadLine();
+
+        bool same = option.All(x => x == option[0]);
+        
+        if (same) Console.WriteLine("Congrats you win");
+        else Console.WriteLine("Sorry, you lost everything");
+        
 
     }
 }
