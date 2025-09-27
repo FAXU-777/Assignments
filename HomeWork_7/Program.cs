@@ -164,9 +164,6 @@ class Program
                 Console.WriteLine(arr[i]);
             }
         }
-
-        
-        
         
     }
     enum Money
