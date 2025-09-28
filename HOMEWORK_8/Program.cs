@@ -47,14 +47,44 @@ class Program
         Console.WriteLine();
 
 
-       
+        // 4. დაწერეთ ფუნქცია რომელიც მიიღებს Generic ტიპის ლისტს , შეამოწმებს
+        // გადაცემული ლისტის ტიპს და შემოწმების შემდეგ ჩაატარებს შემდეგ
+        // ოპერაციებს .
+        //     თუ გადაეცემა სტრინგების ლისტი - დაბეჭდავს ყველა სტრინგს UpperCase-ში
+        // თუ გადაეცემა ნებისმიერი რიცხვითი ტიპის მასივი ( int) - დაითვლის მათ ჯამს
+        // თუ გადაეცემა Bool - გამოიტანს ლისტის პირველ, ბოლო და შუაში მყოფ
+        // ელემენტს .
+        //
+        //     Input : 5,5
+        // Output : 10
+        //
+        // Input : List&lt;string&gt;() { &quot;test&quot;,&quot;random&quot;,&quot;programming&quot;,&quot;word&quot; };
+        // Output : TEST
+        //     RANDOM
+        // PROGRAMMING
+        //     WORD
+        // Input : true,false,true,false,true,false,false
+        // Output : first Element is True
+        //     Last Element is False
+        //     Middle Element is False
 
-
+        List<string> name = new List<string>();
+        name.Add("Nika");
+        name.Add("Nugo");
+        ListInput(name);
         
-        
-        
-
+        List<int> number = new List<int>();
+        number.Add(1);
+        number.Add(2);
+        number.Add(32);
+        ListInput(number);
+        List<bool> bools = new List<bool>();
+        bools.Add(true);
+        bools.Add(false);
+        bools.Add(false);
+        bools.Add(true);
       
+        ListInput(bools);
     }
 
     public static void Number_square()
@@ -128,6 +158,42 @@ class Program
         }
 
         Console.WriteLine(result);
+    }
+    
+    public static void ListInput<T>(List<T> list)
+    {
+        Console.WriteLine($"Element type: {typeof(T)}");
+        
+        if (typeof(T) == typeof(string))
+        {
+            foreach (var element in list)
+            {
+                string str = element as string;
+                Console.WriteLine(str.ToUpper());
+            }
+        }
+
+        if (typeof(T) == typeof(int))
+        {
+            int sum = 0;
+
+            foreach (var elem in list)
+            {
+                sum += (int)(object)elem;
+            }
+
+            Console.WriteLine($"Sum is {sum}");
+        }
+
+        Console.WriteLine();
+
+        if (typeof(T) == typeof(bool))
+        {
+            var middle = list.Count / 2;
+            Console.WriteLine($"Firs element {list.First()}");
+            Console.WriteLine($"Middle is: {list[middle]}");
+            Console.WriteLine($"Last element {list.Last()}");
+        }
     }
 
 }
