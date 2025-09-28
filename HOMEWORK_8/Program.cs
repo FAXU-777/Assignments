@@ -37,6 +37,20 @@ class Program
         Duplicates();
         Console.WriteLine();
         
+        // 3. დაწერეთ ფუნქცია რომელიც დააბრუნებს ყველაზე გრძელ საერთო
+        // ბოლოსართს ორ სტრინგს შორის .
+        //     Input : multiplication , substraction
+        // Output : tion
+        // Input : Some Random Text, It is Some Random Text
+        // Output : Some Random Text
+        Comparision();
+        Console.WriteLine();
+
+
+       
+
+
+        
         
         
 
@@ -83,6 +97,37 @@ class Program
                 .Count(n => n.Count() > 1);
             Console.WriteLine($"The number of pairs is: {duplicates}");
         }
+    }
+
+
+    public static void Comparision()
+    {
+        Console.Write("Enter first word: ");
+        var word1 = Console.ReadLine();
+        Console.Write("Enter second word: ");
+        var word2 = Console.ReadLine();
+
+        // var sortedFirst = word1
+        //     .ToLower()
+        //     .OrderBy(n => n);
+        
+        int i = word1.Length -1 ;   
+        int j = word2.Length -1 ;
+
+        // var sortedSecond = word2
+        //     .ToLower()
+        //     .OrderBy(n => n);
+
+        var result = " ";
+
+        while (i != 0 && j != 0 && word1[i] == word2[j])
+        {
+            result = word1[i] + result;
+            i--;
+            j--;
+        }
+
+        Console.WriteLine(result);
     }
 
 }
