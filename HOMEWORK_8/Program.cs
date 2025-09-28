@@ -94,6 +94,19 @@ class Program
         // Output : 1 - 2 - 3 - 4 - 5
 
         Print();
+        Console.WriteLine();
+        
+        
+        
+        // 6. დაწერეთ პროგრამა რომელიც შეამოწმებს შეიცავს თუ არა მასივი
+        //     დუბლიკატებს
+        // Input: nums = [1,2,3,1]
+        // Output: true
+        // Input: nums = [1,2,3,4]
+        // Output: false
+        
+        FindDuplicates();
+
 
     }
 
@@ -229,5 +242,43 @@ class Program
                 Console.Write($"{arr[i]} - ");
         }
     }
+    
+    public static void FindDuplicates()
+    {
+        Console.Write("Enter length of arr: ");
+        var lenght = Convert.ToInt32(Console.ReadLine());
+
+        int[] arr = new int[lenght];
+
+        for (int i = 0; i < lenght; i++)
+        {
+            Console.Write("Enter element: ");
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        bool same = false;
+        for (int i = 0; i < lenght; i++)
+        {
+            Console.Write(arr[i]+ " ");
+            
+            for (int j = i + 1; j < lenght; j++)
+            {
+                if (arr[i] == arr[j])
+                {
+                    same = true;
+                    break;
+                }
+
+                if (same == true)
+                {
+                    break;
+                }
+                
+            }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine(same);
+        }
 
 }
