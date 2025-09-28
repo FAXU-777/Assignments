@@ -85,6 +85,16 @@ class Program
         bools.Add(true);
       
         ListInput(bools);
+        Console.WriteLine();
+        
+        
+        // 5. რეკურსია
+        // დაწერეთ ფუნქცია რომელიც დაბეჭდავს რიცხვში შემავალ ყოველ სიმბოლოს .
+        //     Input : 12345
+        // Output : 1 - 2 - 3 - 4 - 5
+
+        Print();
+
     }
 
     public static void Number_square()
@@ -193,6 +203,30 @@ class Program
             Console.WriteLine($"Firs element {list.First()}");
             Console.WriteLine($"Middle is: {list[middle]}");
             Console.WriteLine($"Last element {list.Last()}");
+        }
+    }
+    
+    
+    
+    public static void Print()
+    {
+        Console.Write("Enter length of arr: ");
+        var lenght = Convert.ToInt32(Console.ReadLine());
+
+        int[] arr = new int[lenght];
+
+        for (int i = 0; i < lenght; i++)
+        {
+            Console.Write("Enter element: ");
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        for (int i = 0; i < lenght; i++)
+        {
+            if (i == lenght - 1) // ბოლო ელემენტია
+                Console.Write(arr[i]);
+            else
+                Console.Write($"{arr[i]} - ");
         }
     }
 
