@@ -17,6 +17,30 @@ class Program
         // Input : 2, 27 , 4 // 2^4
         // Output : 1
         Number_square();
+        Console.WriteLine();
+        
+        
+        // 2. დაეხმარეთ პატარა ნიკუშას წინდების წყვილების პოვნაში. წყვილები
+        //     აღნიშნულია ორი ერთნაირი სიმბოლოთი.
+        //     Input : AA
+        // Output : 1
+        //
+        // Input : AABBCC
+        // Output : 3
+        //
+        // Input : AABBC
+        // Output : 2
+        // Input : ABABC
+        // Output : 2
+        // Input : AAABB
+        // Output : 2
+        Duplicates();
+        Console.WriteLine();
+        
+        
+        
+
+      
     }
 
     public static void Number_square()
@@ -43,6 +67,22 @@ class Program
         }
 
         Console.WriteLine($"Amount is {amount}");
+    }
+
+    public static void Duplicates()
+    {
+        Console.Write("Enter input: ");
+        string input = Console.ReadLine();
+
+        if (input != null)
+        {
+            
+            var duplicates = input
+                .ToUpper()
+                .GroupBy(n => n)
+                .Count(n => n.Count() > 1);
+            Console.WriteLine($"The number of pairs is: {duplicates}");
+        }
     }
 
 }
