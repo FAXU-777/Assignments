@@ -3,7 +3,7 @@ namespace HOMEWORK_10;
 public abstract class FileWorker
 {
     protected int MaxSize { get; set; }
-    protected string Extention;
+    protected string Extention { get; set; }
 
     public FileWorker(int maxSize, string extention)
     {
