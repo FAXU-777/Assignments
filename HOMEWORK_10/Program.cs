@@ -9,5 +9,13 @@ class Program
         childWorker.Edit();
         childWorker.Read();
         childWorker.Write();
+
+
+        Bank bank = new Bank();
+        bank.CheckUserHistory();
+        bank.CalculateLoanPercent(5,100);
+        MicroFinance microFinance = new MicroFinance();
+        microFinance.CheckUserHistory();
+        microFinance.CalculateLoanPercent(5,100);
     }
 }

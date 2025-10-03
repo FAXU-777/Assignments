@@ -10,6 +10,7 @@ public abstract class FileWorker
         this.MaxSize = maxSize;
         this.Extention = extention;
     }
+    
     public abstract void Read();
     public abstract void Write();
     public abstract void Edit();
