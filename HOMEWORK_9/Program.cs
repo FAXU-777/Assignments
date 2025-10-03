@@ -63,7 +63,7 @@ class Program
 
 
         Console.WriteLine("Homework N1");
-        Employee employee = new Employee("nika", "Pakhu", 19,Employee.Positions.Meneger, new[] { 8, 8, 8, 8, 8, 0, 0 });
+        Employee employee = new Employee("Nika", "Pakhu", 19,Employee.Positions.Tester, new[] { 8, 8, 8, 8, 8, 0, 0 });
         employee.AverageSalary();
         // Employee employee2 = new Employee("Shota", "Shala", 19, Employee.Positions.Tester, new[] { 8, 8, 8, 8, 8, 0, 0});
         // employee2.AverageSalary();

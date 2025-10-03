@@ -22,7 +22,7 @@ public class Student
 
     public void UniGraduation()
     {
-        int end = 22- this.Age;
+        int end = 22 - this.Age;
         Console.WriteLine($"{Name} left {end} years to graduate");
     }
 
@@ -34,6 +34,5 @@ public class Student
         int num = random.Next(0, 4);
         Console.WriteLine(subjects[num]);
         this.Subject = subjects[num];
-        
     } 
 }

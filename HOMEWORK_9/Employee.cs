@@ -67,7 +67,7 @@ public class Employee
 
         if (totalHour > 50)
         {
-            Salary =Salary + (Salary * 20) /100;
+            Salary = Salary + (Salary * 20) /100;
         }
 
         Console.WriteLine($"Salary is: {Salary}");
