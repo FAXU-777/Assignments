@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/appleuser/Course/HomewWork6/HomeWork_14/HomeWork_14.csproj": {}
+    "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/HOMEWORK_14.csproj": {}
   },
   "projects": {
-    "/Users/appleuser/Course/HomewWork6/HomeWork_14/HomeWork_14.csproj": {
+    "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/HOMEWORK_14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/appleuser/Course/HomewWork6/HomeWork_14/HomeWork_14.csproj",
-        "projectName": "HomeWork_14",
-        "projectPath": "/Users/appleuser/Course/HomewWork6/HomeWork_14/HomeWork_14.csproj",
+        "projectUniqueName": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/HOMEWORK_14.csproj",
+        "projectName": "HOMEWORK_14",
+        "projectPath": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/HOMEWORK_14.csproj",
         "packagesPath": "/Users/appleuser/.nuget/packages/",
-        "outputPath": "/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/",
+        "outputPath": "/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/appleuser/.nuget/NuGet/NuGet.Config"
