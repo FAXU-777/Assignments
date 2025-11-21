@@ -1,0 +1,14 @@
+/Users/appleuser/Course/HomewWork6/HomeWork_14/bin/Debug/net9.0/HomeWork_14
+/Users/appleuser/Course/HomewWork6/HomeWork_14/bin/Debug/net9.0/HomeWork_14.deps.json
+/Users/appleuser/Course/HomewWork6/HomeWork_14/bin/Debug/net9.0/HomeWork_14.runtimeconfig.json
+/Users/appleuser/Course/HomewWork6/HomeWork_14/bin/Debug/net9.0/HomeWork_14.dll
+/Users/appleuser/Course/HomewWork6/HomeWork_14/bin/Debug/net9.0/HomeWork_14.pdb
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.AssemblyInfoInputs.cache
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.AssemblyInfo.cs
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.csproj.CoreCompileInputs.cache
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.dll
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/refint/HomeWork_14.dll
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.pdb
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/HomeWork_14.genruntimeconfig.cache
+/Users/appleuser/Course/HomewWork6/HomeWork_14/obj/Debug/net9.0/ref/HomeWork_14.dll
