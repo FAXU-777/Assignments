@@ -11,6 +11,7 @@ public class Client
         chair = factory.CreateChair();
         table = factory.CreateTable();
         sofa = factory.CreateSofa();
+        
 
     }
 

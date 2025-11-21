@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BeXqTG0fX6w=",
+  "success": true,
+  "projectFilePath": "/Users/appleuser/Course/HomewWork6/HomewWork6/HomewWork6.csproj",
+  "expectedPackageFiles": [
+    "/Users/appleuser/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.4/microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
+    "/Users/appleuser/.nuget/packages/microsoft.net.illink.tasks/9.0.4/microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+    "/Users/appleuser/.nuget/packages/runtime.osx-arm64.microsoft.dotnet.ilcompiler/9.0.4/runtime.osx-arm64.microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
