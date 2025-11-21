@@ -1,0 +1,15 @@
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/bin/Debug/net9.0/HOMEWORK_14
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/bin/Debug/net9.0/HOMEWORK_14.deps.json
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/bin/Debug/net9.0/HOMEWORK_14.runtimeconfig.json
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/bin/Debug/net9.0/HOMEWORK_14.dll
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/bin/Debug/net9.0/HOMEWORK_14.pdb
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.AssemblyInfoInputs.cache
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.AssemblyInfo.cs
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.csproj.CoreCompileInputs.cache
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.sourcelink.json
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.dll
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/refint/HOMEWORK_14.dll
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.pdb
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/HOMEWORK_14.genruntimeconfig.cache
+/Users/appleuser/RiderProjects/Assignments/HOMEWORK_14/obj/Debug/net9.0/ref/HOMEWORK_14.dll
